@@ -1,7 +1,7 @@
 <h3 align="center">
     <img src="./.github/image.png" alt="Boilerplate" />
     <br><br>
-    <b>Note, TypeORM, JWT API Boilerplate.</b>  
+    <b>TypeScrypt, TypeORM, JWT - API Boilerplate.</b>  
     <br>
 </h3>
 
@@ -18,7 +18,7 @@
 ## :bookmark: About
 
 Boilerplate to start quick and fresh you new project with authentication and authorization using JWT, TypeORM and TypeScript. 
-This project was made by [Matheus Silva](https://github.com/maateusilva) - [Youtube](https://www.youtube.com/channel/UCNckxUYl117w3hfgoj3DbWg).
+This project was made by [Matheus Silva](https://github.com/maateusilva) - [Youtube](https://www.youtube.com/watch?v=TjAXBLszCb0&list=PLrxGhJAruLiIJYfBkKme8I1XPvbMEgpFC&index=22).
 
 <a id="functionalities"></a>
 
@@ -59,7 +59,7 @@ The project is made with:
 - ### **Dependencies**
 
   - Is **required** to install **[Node.js](https://nodejs.org/en/)**
-  - In order to run scripts and install dependencies you need to install a **package manager** (ie: **[YARN](https://yarnpkg.com/)**).
+  - In order to run scripts and install dependencies you need to install an **package manager** (ie: **[YARN](https://yarnpkg.com/)**).
 
   <br>
 
@@ -69,7 +69,7 @@ The project is made with:
   $ git clone https://github.com/dpisati/node-typeorm.git
 ```
 
-2. Add variables on .env file:
+2. Add variables on `.env` file:
 
 The **api** requires some environment variables stored inside the `.env` file.
 
