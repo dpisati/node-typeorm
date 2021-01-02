@@ -1,7 +1,7 @@
 <h3 align="center">
     <img src="./.github/image.png" alt="Boilerplate" />
     <br><br>
-    <b>TypeScrypt, TypeORM, JWT - API Boilerplate.</b>  
+    <b>TypeScript, TypeORM, JWT - API Boilerplate.</b>  
     <br>
 </h3>
 
