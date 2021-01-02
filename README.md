@@ -17,7 +17,7 @@
 
 ## :bookmark: About
 
-Boilerplate to start quick and fresh you new project with authentication and authorization using JWT, TypeORM and TypeScript. 
+Boilerplate to start quick and fresh your new project with authentication and authorization using JWT, TypeORM and TypeScript. 
 This project was made by [Matheus Silva](https://github.com/maateusilva) - [Youtube](https://www.youtube.com/watch?v=TjAXBLszCb0&list=PLrxGhJAruLiIJYfBkKme8I1XPvbMEgpFC&index=22).
 
 <a id="functionalities"></a>
