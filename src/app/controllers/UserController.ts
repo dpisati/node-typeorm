@@ -1,6 +1,8 @@
 import { Request, Response } from 'express';
 import { getRepository } from 'typeorm';
 
+
+
 import User from '../models/User';
 
 class UserController {
@@ -22,6 +24,9 @@ class UserController {
         await repository.save(user);
 
         return res.json(user);
+    }
+    async index(req: Request, res: Response) {
+        return res.json({ user: req.userToken });
     }
 }
 
