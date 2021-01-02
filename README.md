@@ -24,18 +24,24 @@ This project was made by [Matheus Silva](https://github.com/maateusilva) - [Yout
 
 ## :fire: Functionalities
 
-    - Register User with: Name, Email and Password.
-    - On Register: check if user alreay exists (unique email).
-    - On Register: check if user added name, email and password.
-    - Hash user password using bcryptjs.
-<br>
-    - Authenticate user with Email and Password.
-    - On authenticate: check if user added name and password.
-    - On authenticate: check if user is valid.
-    - On authenticate: check if password matches with hash.
-    - Receive token as response containing: id, name, email, user type (admin / user).
-<br>
-    - Middleware check if has a token and if is valid.
+- ### **Register**
+
+  - Register User with: Name, Email and Password.
+  - On Register: check if user alreay exists (unique email).
+  - On Register: check if user added name, email and password.
+  - Hash user password using bcryptjs.
+
+- ### **Authenticate**
+
+  - Authenticate user with Email and Password.
+  - On authenticate: check if user added name and password.
+  - On authenticate: check if user is valid.
+  - On authenticate: check if password matches with hash.
+  - Receive token as response containing: id, name, email, user type (admin / user).
+
+- ### **Middleware**
+
+  - Middleware check if has a token and if is valid.
 
 <a id="technologies"></a>
 
