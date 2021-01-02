@@ -91,7 +91,7 @@ JWT_SECRET = strong password to be used by JWT
 JWT_EXPIRES_IN = set how long the token should be valid
 ```
 
-3. Configure `ormconfig.json` to connect the database, default values as below:
+3. Configure `ormconfig.json` to connect the database. Default values as below:
 
 ```text
 {
