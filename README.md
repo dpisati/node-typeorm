@@ -91,7 +91,29 @@ JWT_SECRET = strong password to be used by JWT
 JWT_EXPIRES_IN = set how long the token should be valid
 ```
 
-3. Run the application:
+3. Configure `ormconfig.json` to connect the database, default values as below:
+
+```text
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "",
+    "database": "node-typeorm",
+    "entities": [
+       "src/app/models/*.ts"
+    ],
+    "migrations": [
+       "src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "src/database/migrations"
+    }
+ }
+```
+
+4. Run the application:
 
 ```sh
   # Install dependencies.
